@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donează 2%</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Stiluri pentru poziționarea casetelor de text */
+        .form-container {
+            position: relative;
+            width: 100%; /* Ajustează lățimea conform imaginii */
+            margin: auto;
+        }
+
+        .form-container img {
+            width: 100%;
+        }
+
+        .input-field {
+            position: absolute;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            padding: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Poziționează fiecare câmp în locul dorit */
+        #nume { top: 280px; left: 460px; width: 1000px; } /* Ajustează aceste valori pentru noua imagine */
+        #adresa { top: 350px; left: 140px; width: 300px; }
+        /* Continuă pentru fiecare câmp necesar */
+
+        /* Stil pentru butonul de trimitere */
+        #submit-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <!-- Înlocuiește `GetImage.jpeg` cu numele nou al imaginii dorite -->
+    <img src="formular_nou.jpeg" alt="Formular ANAF">
+    <input type="text" id="nume" class="input-field" placeholder="Nume">
+    <input type="text" id="adresa" class="input-field" placeholder="Adresă">
+    <!-- Adaugă mai multe câmpuri după nevoie -->
+
+    <button id="submit-btn">Trimite Formularul</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
