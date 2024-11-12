@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", function() {
     if (currentPage === "index.html") {
         // Pentru pagina "acasa", încarcă textul din text_lung.txt
         loadTextFromFile('text_lung.txt', 'text-suprapus');
-    } else if (currentPage === "contact.html") {
+    } else if (currentPage === "Contact.html") {
         // Pentru pagina "contact", încarcă textul din contact.txt
         loadTextFromFile('contact.txt', 'text');
     } else if (currentPage === "despre-noi.html") {
     // Pentru pagina "contact", încarcă textul din contact.txt
     loadTextFromFile('desprenoi.txt', 'text');
-    } else if (currentPage === "proiecte.html") {
+    } else if (currentPage === "Proiecte.html") {
     // Pentru pagina "contact", încarcă textul din contact.txt
     loadTextFromFile('proiectelenoastre.txt', 'text');
     } else if (currentPage === "voluntariat.html") {
