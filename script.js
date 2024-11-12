@@ -1,8 +1,3 @@
-// Redirect to "Acasa" page if the user is on the root path
-if (window.location.pathname === "/") {
-    window.location.href = "/acasa.html";
-}
-
 document.addEventListener("DOMContentLoaded", function() {
     const currentPage = window.location.pathname.split("/").pop();
 
